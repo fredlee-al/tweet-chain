@@ -1,0 +1,54 @@
+.profileDropdown {
+  right: 0;
+  width: 192px;
+  border-radius: 12px;
+  background: grey;
+  border: 1px solid purple;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  position: absolute;
+  top: 55px;
+  z-index: 1;
+}
+
+.dropdownLink {
+  margin-bottom: 16px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: Copperplate;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdownLink:hover {
+  background: purple;
+}
+
+.dropdownLink > span {
+  padding-right: 16px;
+  color: white;
+}
+
+.logout {
+  border-top: 1px solid grey;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding-top: 7px;
+  color: red;
+}
+
+.logout > span {
+  color: red;
+}
+
+@media (max-width: 767px) {
+  .profileDropdown {
+    right: 8px;
+  }
+}

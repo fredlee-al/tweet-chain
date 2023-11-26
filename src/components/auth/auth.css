@@ -1,0 +1,14 @@
+.authPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+@media (max-width: 767px) {
+  .authPage {
+    display: block;
+  }
+}
